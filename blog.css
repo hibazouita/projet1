@@ -1,0 +1,97 @@
+body,html{
+    scroll-behavior: smooth;
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index:10;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+.navbar-nav li a {
+float: left;
+
+
+  color: gray;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+#nav-bar ul li a:hover {
+    color:#FF4141!important;
+}
+
+.navbar {
+    
+    overflow: hidden;
+}
+.navbar-toggler {
+    border: none!important;
+}
+.nav-link {
+    color:#FF4141;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.img0 {
+    background-image: cover;
+    
+}
+.img01{
+    position:absolute ;
+    bottom: 5px;
+    text-align: center;
+    opacity:initial;
+    background-position: center;
+    float: center;
+    justify-content: center;
+    color: white;
+   }
+   .img1 {
+    background-image: cover;
+    
+}
+.img02{
+    position:absolute ;
+    bottom: 5px;
+    text-align: center;
+    opacity:initial;
+    background-position: center;
+    float: center;
+    justify-content: center;
+    color: white;
+   }
+  
+    
+
+.img03{
+    position:absolute ;
+    bottom: 5px;
+    text-align: center;
+    opacity:initial;
+    background-position: center;
+    float: center;
+    justify-content: center;
+    color: white;
+   }
+   .text-muted{
+       color:white;
+   }
+   p{
+       color:gray;
+   }
+   div.icone{
+    font-size:40px;
+    margin:20px auto;
+    padding: 20px;
+   color:gray;
+   display: inline;
+    border-radius: 50%;
+   }
+.icone i:hover{
+    color:#FF4141;
+}
